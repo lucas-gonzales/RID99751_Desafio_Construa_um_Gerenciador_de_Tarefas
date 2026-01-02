@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Dev News - Blog de desenvolvimento, tecnologia e produtividade">
+    <title>The Dev News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav class="nav-container">
+            <h1 class="logo">The Dev News</h1>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="layout-wrapper">
+            <!-- Coluna Principal (Banner + Posts) -->
+            <div class="main-column">
+                <section class="banner-article">
+                    <img src="https://www.figma.com/api/mcp/asset/05e7a1c0-d0e9-4655-b904-e62c98045681" alt="Como é ser um desenvolvedor" class="banner-image">
+                    <div class="banner-overlay"></div>
+                    <div class="banner-text">
+                        <p class="banner-category">opinião</p>
+                        <h2 class="banner-title">Como é ser um desenvolvedor</h2>
+                        <p class="banner-author"><strong>By</strong> Fabio Tetsuo</p>
+                    </div>
+                </section>
+
+                <section class="posts-section">
+                    <div class="section-header">
+                        <h2 class="section-title">Posts mais recentes</h2>
+                        <a href="#" class="view-all">Ver todos</a>
+                    </div>
+
+                    <div class="posts-grid">
+                        <article class="post-card">
+                            <img src="https://www.figma.com/api/mcp/asset/fdf3dbeb-7a84-4118-838b-4b1f87555f82" alt="Desenvolvimento mobile" class="post-image">
+                            <div class="post-content">
+                                <p class="post-category">desenvolvimento</p>
+                                <h3 class="post-title">Desenvolvimento mobile</h3>
+                                <p class="post-author"><strong>By</strong> Fabio Tetsuo</p>
+                                <p class="post-description">Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p>
+                                <time datetime="2022-08-22" class="post-date">22 Agosto 2022</time>
+                            </div>
+                        </article>
+
+                        <article class="post-card">
+                            <img src="https://www.figma.com/api/mcp/asset/5973e6f7-4860-4207-9ba5-6f8744f3406e" alt="Balancear vida profissional e pessoal" class="post-image">
+                            <div class="post-content">
+                                <p class="post-category">saude</p>
+                                <h3 class="post-title">Balancear vida profissional e pessoal</h3>
+                                <p class="post-author"><strong>By</strong> Ridho Satriawan</p>
+                                <p class="post-description">Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</p>
+                                <time datetime="2022-08-22" class="post-date">22 Agosto 2022</time>
+                            </div>
+                        </article>
+
+                        <article class="post-card">
+                            <img src="https://www.figma.com/api/mcp/asset/08b370ed-674e-4f81-b960-706ff07fe9bc" alt="Configurando VSCode" class="post-image">
+                            <div class="post-content">
+                                <p class="post-category">desenvolvimento</p>
+                                <h3 class="post-title">Configurando VSCode</h3>
+                                <p class="post-author"><strong>By</strong> Fabio Tetsuo</p>
+                                <p class="post-description">Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac sagittis id a etiam. Tellus vitae arcu dignissim massa aliquam vel tellus. Ipsum massa arcu nulla sed purus in ac.</p>
+                                <time datetime="2022-08-22" class="post-date">22 Agosto 2022</time>
+                            </div>
+                        </article>
+
+                        <article class="post-card">
+                            <img src="https://www.figma.com/api/mcp/asset/a44868a8-4bd3-403f-81a6-2b9c4c27c7b6" alt="2 monitores ou 1 ultrawide?" class="post-image">
+                            <div class="post-content">
+                                <p class="post-category">produtividade</p>
+                                <h3 class="post-title">2 monitores ou 1 ultrawide?</h3>
+                                <p class="post-author"><strong>By</strong> Fulano da Silva</p>
+                                <p class="post-description">Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing sagittis tristique. Eget molestie posuere enim pretium venenatis nunc ligula donec a. Velit senectus amet nulla.</p>
+                                <time datetime="2022-08-22" class="post-date">22 Agosto 2022</time>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Sidebar (Posts Populares + Categorias) -->
+            <aside class="sidebar">
+                <section class="sidebar-section sidebar-popular">
+                    <h2 class="sidebar-title">Posts populares</h2>
+                    <div class="sidebar-posts">
+                        <article class="sidebar-card">
+                            <img src="https://www.figma.com/api/mcp/asset/5bff80c3-54bd-4e41-8f19-66ca3e5ca1f5" alt="Desenvolvimento atual" class="sidebar-image">
+                            <div class="sidebar-content">
+                                <h3 class="sidebar-card-title">Desevolvimento atual</h3>
+                                <time datetime="2022-08-22" class="sidebar-date">22 Agosto 2022</time>
+                            </div>
+                        </article>
+
+                        <article class="sidebar-card">
+                            <img src="https://www.figma.com/api/mcp/asset/bd9dbb0b-f325-4130-97db-7ed636da3896" alt="GitLab vs GitHub" class="sidebar-image">
+                            <div class="sidebar-content">
+                                <h3 class="sidebar-card-title">GitLab vs GitHub</h3>
+                                <time datetime="2022-08-22" class="sidebar-date">22 Agosto 2022</time>
+                            </div>
+                        </article>
+
+                        <article class="sidebar-card">
+                            <img src="https://www.figma.com/api/mcp/asset/c0ad2c48-a13a-4eed-b2c5-cdb33698c1e7" alt="Café atrapalha?" class="sidebar-image">
+                            <div class="sidebar-content">
+                                <h3 class="sidebar-card-title">Café atrapalha?</h3>
+                                <time datetime="2022-08-22" class="sidebar-date">22 Agosto 2022</time>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="sidebar-section sidebar-categories">
+                    <h2 class="sidebar-title">Categorias</h2>
+                    <nav class="categories-list">
+                        <a href="#" class="category-item">
+                            <span>&gt; saude</span>
+                            <span>(1)</span>
+                        </a>
+                        <a href="#" class="category-item">
+                            <span>&gt; desenvolvimento</span>
+                            <span>(2)</span>
+                        </a>
+                        <a href="#" class="category-item">
+                            <span>&gt; produtividade</span>
+                            <span>(2)</span>
+                        </a>
+                        <a href="#" class="category-item">
+                            <span>&gt; opiniao</span>
+                            <span>(1)</span>
+                        </a>
+                    </nav>
+                </section>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Copyright@The Dev News</p>
+    </footer>
+</body>
+</html>
